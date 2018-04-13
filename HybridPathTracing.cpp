@@ -1,4 +1,4 @@
-#include "hybrid_pathtracing.h"
+#include "HybridPathTracing.h"
 #include <iostream> 
 
 fRenderer::Rendering::PathTracing::PathTracingPipeLine::PathTracingPipeLine() 

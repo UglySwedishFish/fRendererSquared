@@ -1,5 +1,5 @@
 #include "Mesh.h"
-#include "dependencies_rendering.h" 
+#include "DependenciesRendering.h"
 #include <iostream> 
 
 void fRenderer::Rendering::Mesh::Mesh::ClearVectors()
@@ -24,7 +24,6 @@ void fRenderer::Rendering::Mesh::Material::Bind(Core::Shader & Shader)
 	glUniform1f(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.Emmision"), Emmisive);
 	glUniform3f(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.DiffColor"), DiffuseColor.r, DiffuseColor.g, DiffuseColor.b);
 	glUniform1f(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.RefractiveIndex"), RefractiveIndex);
-	glUniform1f(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.ParallaxStrenght"), Parallax);
 
 	glUniform1i(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.HasTexture"), AlbedoMap.ID != -1);
 	if (AlbedoMap.ID != -1) {
@@ -46,11 +45,7 @@ void fRenderer::Rendering::Mesh::Material::Bind(Core::Shader & Shader)
 		glUniform1i(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.SpecularMap"), 22);
 	}
 
-	glUniform1i(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.HasParallaxMap"), ParallaxMap.ID != -1);
-	if (ParallaxMap.ID != -1) {
-		ParallaxMap.Bind(23);
-		glUniform1i(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.ParallaxMap"), 23);
-	}
+
 
 	glUniform1i(glGetUniformLocation(Shader.ShaderID, "FragmentMaterial.HasRoughnessMap"), RoughnessMap.ID != -1);
 	if (RoughnessMap.ID != -1) {

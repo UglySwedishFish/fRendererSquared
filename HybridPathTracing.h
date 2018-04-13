@@ -1,6 +1,7 @@
 #pragma once
-#include "dependencies_pathtracing.h" 
-#include "hybrid_rasterizing.h" 
+#include "DependenciesPathTracing.h"
+#include "HybridRasterizing.h"
+#include "MeshTextureWrapper.h"
 
 namespace fRenderer {
 	namespace Rendering {

@@ -1,5 +1,5 @@
 #pragma once
-#include "dependencies_math.h" 
+#include "DependenciesMath.h"
 #include "window.h" 
 #define PI 3.14159265
 

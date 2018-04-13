@@ -1,4 +1,4 @@
-#include "hybrid_rasterizing.h"
+#include "HybridRasterizing.h"
 #include <iostream> 
 
 //simple 

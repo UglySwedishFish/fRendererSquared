@@ -1,6 +1,6 @@
 #pragma once 
-#include "hybrid_rasterizing.h" 
-#include "hybrid_pathtracing.h" 
+#include "HybridRasterizing.h"
+#include "HybridPathTracing.h"
 namespace fRenderer {
 	namespace Rendering {
 		namespace Combined {

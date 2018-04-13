@@ -46,7 +46,7 @@ int main() {
 
 
 	std::vector<fRenderer::Rendering::Mesh::Model> Models;
-	Models.push_back(fRenderer::Rendering::Mesh::Model("checkerboard.obj")); //you can of course have multiple models and that should work just fine 
+	Models.push_back(fRenderer::Rendering::Mesh::Model("yourmodel.obj")); //you can of course have multiple models and that should work just fine 
 
 	fRenderer::Rendering::Combined::Pipeline Pipeline; //the pipeline itself 
 	Pipeline.Prepare(Models, Screen, Camera); 

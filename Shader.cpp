@@ -1,5 +1,5 @@
 #include "Shader.h"
-#include "dependencies_rendering.h" 
+#include "DependenciesRendering.h"
 #include <string> 
 #include <fstream> 
 #include "error.h" 

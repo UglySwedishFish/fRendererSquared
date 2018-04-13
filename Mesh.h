@@ -2,8 +2,8 @@
 
 #include <vector> 
 #include <unordered_map> 
-#include "dependencies_mesh.h" 
-#include "dependencies_math.h" 
+#include "DependenciesMesh.h"
+#include "DependenciesMath.h"
 #include "texture.h" 
 #include "Shader.h" 
 #include "camera.h" 

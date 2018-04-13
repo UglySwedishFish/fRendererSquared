@@ -1,5 +1,5 @@
 #pragma once
-#include "dependenices_rasterizing.h" 
+#include "DependenicesRasterizing.h"
 
 namespace fRenderer {
 	namespace Rendering {
