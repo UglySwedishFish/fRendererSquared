@@ -1,0 +1,14 @@
+Debug/
+Release/
+include/
+lib/
+SFML-1.6/
+glm-master/
+assimp-3.3.1/
+*.dll
+*.vcxproj
+*.filters
+*.user
+*.aps
+*.obj
+*.mtl
