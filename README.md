@@ -4,7 +4,7 @@
 	-	the core engine (done) 
 	-	deffered rasterizing (aka the part that makes it hybrid, and not entirely path tracing) (done) 
 	-	The tracing function (done) 
-	-	github page? (probably)
+	-	github page? (done)
 	-	Spatial split BVH (similar aproach to the production-ready cycles renderer) 
 	-	Woop ray/triangle intersection 
 	-	Some basic hand optimization (hand-written kernels etc) 
