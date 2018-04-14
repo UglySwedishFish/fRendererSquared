@@ -44,7 +44,7 @@ int main() {
 	fRenderer::Control::Camera Camera = fRenderer::Control::Camera(70.0,0.01,1000.0,Vector3f(0.), Vector3f(0.), Screen); //fov, znear, zfar, position, rotation, display 
 
 
-
+	
 	std::vector<fRenderer::Rendering::Mesh::Model> Models;
 	Models.push_back(fRenderer::Rendering::Mesh::Model("checkerboard.obj")); //you can of course have multiple models and that should work just fine 
 
