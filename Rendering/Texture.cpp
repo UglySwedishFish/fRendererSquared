@@ -1,5 +1,5 @@
 #include "texture.h"
-#include "DependenciesRendering.h"
+#include <Dependencies\DependenciesRendering.h> 
 
 fRenderer::Rendering::Core::Texture2D::~Texture2D()
 {

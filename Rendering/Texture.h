@@ -1,5 +1,5 @@
 #pragma once
-#include "DependenciesMath.h"
+#include <Dependencies\DependenciesMath.h> 
 namespace fRenderer {
 	namespace Rendering {
 		namespace Core {

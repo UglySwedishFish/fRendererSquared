@@ -1,7 +1,5 @@
-#include "core.h"
-#include "DependenciesSFML.h"
-#include "window.h" 
-
+#include "Core.h"
+#include <Dependencies\DependenciesSFML.h> 
 #include <iostream> 
 
 

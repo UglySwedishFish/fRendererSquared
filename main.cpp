@@ -6,7 +6,7 @@ TODO:
 	-	the core engine (done) 
 	-	deffered rasterizing (aka the part that makes it hybrid, and not entirely path tracing) (done) 
 	-	The tracing function (done) 
-	-	github page? (probably)
+	-	Github page? (doneOkay hum Hello , I'm going to present my C++/SFML project : Xenorbax.    Xenorbax is a Tamagotchi game in isometric view in developpement . In my game you'll have to take care of a pet which will fight versus others pets around the world with an isometric turn by turn mecanic. if you wanna see more come on my serv : https://discord.gg/YBkf2 ^^)
 	-	Spatial split BVH (similar aproach to the production-ready cycles renderer) 
 	-	Woop ray/triangle intersection 
 	-	Some basic hand optimization (hand-written kernels etc) 
@@ -32,7 +32,7 @@ References:
 	* 30 samples per pixel at 720p, 150k tris. (1 sample per pixel) 
 */
 
-#include "Pipeline.h" 
+#include <Pipeline\Pipeline.h> 
 #include <iostream> 
 
 int main() {
@@ -46,7 +46,7 @@ int main() {
 
 
 	std::vector<fRenderer::Rendering::Mesh::Model> Models;
-	Models.push_back(fRenderer::Rendering::Mesh::Model("yourmodel.obj")); //you can of course have multiple models and that should work just fine 
+	Models.push_back(fRenderer::Rendering::Mesh::Model("checkerboard.obj")); //you can of course have multiple models and that should work just fine 
 
 	fRenderer::Rendering::Combined::Pipeline Pipeline; //the pipeline itself 
 	Pipeline.Prepare(Models, Screen, Camera); 

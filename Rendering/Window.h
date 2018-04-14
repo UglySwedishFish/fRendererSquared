@@ -1,7 +1,6 @@
 #pragma once
-#include "DependenciesRendering.h"
-#include "DependenciesMath.h"
-
+#include <Dependencies\DependenciesRendering.h> 
+#include <Dependencies\DependenciesMath.h> 
 
 class Window {
 	Vector2i Resolution; 

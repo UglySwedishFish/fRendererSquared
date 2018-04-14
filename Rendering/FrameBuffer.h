@@ -1,8 +1,9 @@
 #pragma once
-#include "DependenciesRendering.h"
-#include "DependenciesMath.h"
-#include "window.h" 
-#include "Mesh.h" 
+#include <Dependencies\DependenciesRendering.h> 
+#include <Dependencies\DependenciesMath.h> 
+#include <Rendering\Window.h> 
+#include <Mesh\Mesh.h> 
+
 namespace fRenderer {
 	namespace Rendering {
 		namespace Core {

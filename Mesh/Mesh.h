@@ -2,11 +2,10 @@
 
 #include <vector> 
 #include <unordered_map> 
-#include "DependenciesMesh.h"
-#include "DependenciesMath.h"
-#include "texture.h" 
-#include "Shader.h" 
-#include "camera.h" 
+#include <Dependencies\DependenciesMesh.h> 
+#include <Rendering\Texture.h> 
+#include <Rendering\Shader.h> 
+#include <Core\Camera.h> 
 
 namespace fRenderer {
 	namespace Rendering {

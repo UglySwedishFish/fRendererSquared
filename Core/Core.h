@@ -1,6 +1,6 @@
 #pragma once
-#include "DependenciesMath.h"
-#include "window.h" 
+#include <Dependencies\DependenciesMath.h> 
+#include <Rendering\Window.h> 
 #define PI 3.14159265
 
 namespace fRenderer {

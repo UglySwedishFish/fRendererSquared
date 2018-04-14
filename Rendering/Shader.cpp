@@ -1,8 +1,8 @@
 #include "Shader.h"
-#include "DependenciesRendering.h"
+#include <Dependencies\DependenciesRendering.h> 
 #include <string> 
 #include <fstream> 
-#include "error.h" 
+#include <Core\Error.h> 
 #include <iostream> 
 
 

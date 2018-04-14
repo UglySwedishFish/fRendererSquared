@@ -159,8 +159,8 @@ void main() {
 	vec3 RayDirection = reflect(normalize(PositionRaw.xyz - CameraPosition), NormalRaw.xyz); 
 
 	Ray RAY; 
-	RAY.Direction = cosWeightedRandomHemisphereDirection(NormalRaw.xyz); 
-	//	RAY.Direction = RayDirection; 
+	//RAY.Direction = cosWeightedRandomHemisphereDirection(NormalRaw.xyz); 
+	RAY.Direction = RayDirection; 
 
 	RAY.Origin = PositionRaw.xyz; 
 
