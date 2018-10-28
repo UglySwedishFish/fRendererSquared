@@ -30,4 +30,4 @@
 	
 	* 30 samples per pixel at 720p, 150k tris. (1 sample per pixel) 
 
-#This project is abandoned! Go check out https://github.com/UglySwedishFish/Rak instead, it is very similar to this project. (But also much more complicated)
+# This project is abandoned! Go check out https://github.com/UglySwedishFish/Rak instead, it is very similar to this project. (But also much more complicated)
